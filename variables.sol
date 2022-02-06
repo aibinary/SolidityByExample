@@ -9,8 +9,8 @@ contract Variables{
     function doSomething() public{
         uint i = 456;
     
-        uint timestamp = block.timestamp;
-        address sender = msg.sender;
+        uint timestamp = block.timestamp; //current block timestamp
+        address sender = msg.sender; //current sender
     }
 
 }
